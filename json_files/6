@@ -1,0 +1,306 @@
+{
+    "took": 0,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 6699,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": []
+    },
+    "aggregations": {
+        "unique_schemas": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+                {
+                    "key": "utl",
+                    "doc_count": 850
+                },
+                {
+                    "key": "utl_stg",
+                    "doc_count": 653
+                },
+                {
+                    "key": "fpl_oper",
+                    "doc_count": 535
+                },
+                {
+                    "key": "corporate",
+                    "doc_count": 521
+                },
+                {
+                    "key": "gulf_oper",
+                    "doc_count": 518
+                },
+                {
+                    "key": "namsappowner",
+                    "doc_count": 415
+                },
+                {
+                    "key": "esoms",
+                    "doc_count": 392
+                },
+                {
+                    "key": "maximo_nrt",
+                    "doc_count": 242
+                },
+                {
+                    "key": "cis_raw",
+                    "doc_count": 226
+                },
+                {
+                    "key": "cis_mis_raw",
+                    "doc_count": 163
+                },
+                {
+                    "key": "fpl_comp",
+                    "doc_count": 147
+                },
+                {
+                    "key": "maximo_bi",
+                    "doc_count": 139
+                },
+                {
+                    "key": "wam_pgd",
+                    "doc_count": 123
+                },
+                {
+                    "key": "needataviews",
+                    "doc_count": 98
+                },
+                {
+                    "key": "vendor_customer_opportunities_raw",
+                    "doc_count": 98
+                },
+                {
+                    "key": "wam_pgd_staging",
+                    "doc_count": 69
+                },
+                {
+                    "key": "fpl_store",
+                    "doc_count": 68
+                },
+                {
+                    "key": "gulf_store",
+                    "doc_count": 68
+                },
+                {
+                    "key": "well",
+                    "doc_count": 67
+                },
+                {
+                    "key": "party",
+                    "doc_count": 66
+                },
+                {
+                    "key": "common",
+                    "doc_count": 62
+                },
+                {
+                    "key": "wam_nuc",
+                    "doc_count": 57
+                },
+                {
+                    "key": "fpl_pgbu",
+                    "doc_count": 56
+                },
+                {
+                    "key": "gulf_pgbu",
+                    "doc_count": 56
+                },
+                {
+                    "key": "energy_gen_staging",
+                    "doc_count": 51
+                },
+                {
+                    "key": "fpl_pondpmt",
+                    "doc_count": 51
+                },
+                {
+                    "key": "gpi",
+                    "doc_count": 48
+                },
+                {
+                    "key": "wam_pd",
+                    "doc_count": 47
+                },
+                {
+                    "key": "weather",
+                    "doc_count": 46
+                },
+                {
+                    "key": "cams_raw",
+                    "doc_count": 45
+                },
+                {
+                    "key": "fpl_cts",
+                    "doc_count": 45
+                },
+                {
+                    "key": "fpl_pondpsn",
+                    "doc_count": 45
+                },
+                {
+                    "key": "common_staging",
+                    "doc_count": 43
+                },
+                {
+                    "key": "vbm_apps",
+                    "doc_count": 43
+                },
+                {
+                    "key": "fpl_pondpmg",
+                    "doc_count": 38
+                },
+                {
+                    "key": "fpl_rcms",
+                    "doc_count": 36
+                },
+                {
+                    "key": "utl_cxa",
+                    "doc_count": 35
+                },
+                {
+                    "key": "etl_controls",
+                    "doc_count": 32
+                },
+                {
+                    "key": "financial_detail",
+                    "doc_count": 31
+                },
+                {
+                    "key": "cweos_raw",
+                    "doc_count": 30
+                },
+                {
+                    "key": "energy_gen",
+                    "doc_count": 28
+                },
+                {
+                    "key": "iks_ltam_fpl",
+                    "doc_count": 20
+                },
+                {
+                    "key": "revenue_protection",
+                    "doc_count": 19
+                },
+                {
+                    "key": "safety",
+                    "doc_count": 19
+                },
+                {
+                    "key": "iks_mrule_fpl",
+                    "doc_count": 18
+                },
+                {
+                    "key": "financial_summary",
+                    "doc_count": 17
+                },
+                {
+                    "key": "gasinfra_staging",
+                    "doc_count": 17
+                },
+                {
+                    "key": "item",
+                    "doc_count": 17
+                },
+                {
+                    "key": "lms_dw",
+                    "doc_count": 17
+                },
+                {
+                    "key": "project_raw",
+                    "doc_count": 17
+                },
+                {
+                    "key": "dunsb_raw",
+                    "doc_count": 16
+                },
+                {
+                    "key": "adminscripts",
+                    "doc_count": 15
+                },
+                {
+                    "key": "common_raw",
+                    "doc_count": 15
+                },
+                {
+                    "key": "iramf_raw",
+                    "doc_count": 14
+                },
+                {
+                    "key": "safety_staging",
+                    "doc_count": 13
+                },
+                {
+                    "key": "awsconsumption",
+                    "doc_count": 12
+                },
+                {
+                    "key": "public",
+                    "doc_count": 10
+                },
+                {
+                    "key": "energy_gen_audit",
+                    "doc_count": 9
+                },
+                {
+                    "key": "hr_raw",
+                    "doc_count": 8
+                },
+                {
+                    "key": "access_control_raw",
+                    "doc_count": 7
+                },
+                {
+                    "key": "badge_src",
+                    "doc_count": 7
+                },
+                {
+                    "key": "cams",
+                    "doc_count": 6
+                },
+                {
+                    "key": "common_audit",
+                    "doc_count": 5
+                },
+                {
+                    "key": "hr_raw_restricted",
+                    "doc_count": 5
+                },
+                {
+                    "key": "iks_er_31_fpl",
+                    "doc_count": 4
+                },
+                {
+                    "key": "wam_security",
+                    "doc_count": 4
+                },
+                {
+                    "key": "fcg_gis_gpi",
+                    "doc_count": 2
+                },
+                {
+                    "key": "alation",
+                    "doc_count": 1
+                },
+                {
+                    "key": "resi_solar",
+                    "doc_count": 1
+                },
+                {
+                    "key": "wam_unload",
+                    "doc_count": 1
+                }
+            ]
+        }
+    }
+}
